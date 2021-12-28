@@ -54,23 +54,32 @@ const HomePage = () => {
                         </div>
                         <div className="col-6">
                             <h3>Academy</h3>
-                            <Card className="home-card">
-                                <Card.Img className="home-card-image" variant="top" src={academy} />
-                            </Card>
+                            <Link to="/projects/academy">
+                                <Card className="home-card">
+                                    <Card.Img className="home-card-image" variant="top" src={academy} />
+                                </Card>
+                            </Link>
+
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-6">
                             <h3>E-commerce</h3>
-                            <Card className="home-card">
-                                <Card.Img className="home-card-image" variant="top" src={ecommerce} />
-                            </Card>
+                            <Link to="/projects/e-commerce">
+                                <Card className="home-card">
+                                    <Card.Img className="home-card-image" variant="top" src={ecommerce} />
+                                </Card>
+                            </Link>
+
                         </div>
                         <div className="col-6">
                             <h3>Real-time</h3>
-                            <Card className="home-card">
-                                <Card.Img className="home-card-image" variant="top" src={realtime} />
-                            </Card>
+                            <Link to="projects/real-time">
+                                <Card className="home-card">
+                                    <Card.Img className="home-card-image" variant="top" src={realtime} />
+                                </Card>
+                            </Link>
+
                         </div>
                     </div>
                     <div className="more-button">
@@ -85,9 +94,9 @@ const HomePage = () => {
                 <div className="row home-cv background-black mt-5 pb-5">
                     <div>
                         <h1>Education background</h1>
-                        <h2>Ha Noi University of Science and Technology</h2>
+                        <h4>Ha Noi University of Science and Technology</h4>
                         <p>Major: Mechatronics (Robotics and Automation Engineering)</p> 
-                        <h2>CoderSchool</h2>
+                        <h4>CoderSchool</h4>
                         <p>Major: Full-stack Web Development</p>
                     </div>
                     <div className="more-button">

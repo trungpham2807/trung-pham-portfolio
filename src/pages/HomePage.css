@@ -21,9 +21,9 @@
     border: 2px solid white;
 }
 /* text typing */
-.home-text-typing h1 {
+.home-text-typing h1, .home-text-typing h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .0.1rem solid rgb(255, 255, 255); /* The typewriter cursor */
+    /* border-right: .0.1rem solid rgb(255, 255, 255); The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     /* letter-spacing: .15em; Adjust as needed */
@@ -45,6 +45,7 @@
   }
   .home-card{
       width: 400px;
+      cursor: pointer;
   }
   .home-card-image{
         width: 100%;

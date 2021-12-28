@@ -1,0 +1,10 @@
+.projects-pagination{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.projects-pagination button{
+    color: white !important;
+    border-color: var(--c8)
+
+}
