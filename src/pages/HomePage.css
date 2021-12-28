@@ -1,3 +1,7 @@
+/* .home-page{
+    margin-right: 100px;
+    margin-left: 100px;
+} */
 .background-black{
     background-color: var(--c10);
     /* background-image: url(../images/line.svg); */
@@ -48,6 +52,14 @@
     }
 
 /* Projects */
+.home-projects .row{
+    margin-top: 20px;
+}
+.more-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+}
 .button-color{
     background-color: var(--bg-1);
     border-color: var(--bg-1);

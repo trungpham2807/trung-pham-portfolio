@@ -9,12 +9,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 const Footer = () => {
     return (
-        <div classname="footer">
-            <div style={{fontSize: "0"}}>
-                <img src={line2} alt=""/>
-                <img src={line_down} alt=""/>
-            </div>
-            <div className="row background-black">
+        <div className="footer">
+            <div className="row footer-container background-charcoal">
                 <div className="col-6">
                     <h1>Get in touch!</h1>
                     <p>Feel free to send me an email at trungpq287@gmail.com or find me on social media.</p>

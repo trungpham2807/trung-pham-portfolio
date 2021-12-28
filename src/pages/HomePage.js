@@ -1,6 +1,4 @@
 import React from 'react'
-import { ParallaxProvider } from 'react-scroll-parallax';
-import Parallax from "../Components/Parallax"
 import {Card, Button} from "react-bootstrap"
 // Material UI
 import Avatar from '@mui/material/Avatar';
@@ -16,14 +14,16 @@ import ecommerce from "../images/ecommerce.png"
 import realtime from "../images/real-time.png"
 const HomePage = () => {
     return (
-        <div className="home-page">
-            <div className="container">
-                <div style={{fontSize: "0"}}>
+        <div className="home-page background-black">
+            <div 
+            className="container"
+            >
+                {/* <div style={{fontSize: "0"}}>
                     <img src={line2} alt=""/>
                     <img src={line_down} alt=""/>
-                </div>
+                </div> */}
                 {/* section about */}
-                <div className="row home-about background-black">
+                <div className="row home-about background-black pt-5">
                     <div className="col-8">
                         <div className="home-text-typing">
                             <h1>Hi, My name is Trung Pham
@@ -43,14 +43,16 @@ const HomePage = () => {
                     </div>
                     
                 </div>
-                <div 
-                // style={{fontSize: "0"}}
+                {/* <div 
+                style={{fontSize: "0"}}
                 >
                     <img src={line2} alt=""/>
                     <img src={line_down} alt=""/>
-                </div>
+                </div> */}
                 {/* section projects */}
-                <div className="home-projects background-charcoal">
+                <hr/>
+                <div className="home-projects 
+                mt-5">
                     <div className="row">
                         <div className="col-6">
                             <div className="home-card">
@@ -76,17 +78,19 @@ const HomePage = () => {
                             </Card>
                         </div>
                     </div>
-                    <div className="more-projects">
+                    <div className="more-button">
                         <Button className="button-color">More Projects</Button>
                     </div>
                     
                 </div>
-                <div style={{fontSize: "0"}}>
+                {/* <div style={{fontSize: "0"}}>
                     <img src={line2} alt=""/>
                     <img src={line_down} alt=""/>
-                </div>
+                </div> */}
                 {/* section CV */}
-                <div className="row home-cv background-black">
+                <hr/>
+
+                <div className="row home-cv background-black mt-5 pb-5">
                     <div>
                         <h1>Education background</h1>
                         <h2>Ha Noi University of Science and Technology</h2>
@@ -94,14 +98,14 @@ const HomePage = () => {
                         <h2>CoderSchool</h2>
                         <p>Major: Full-stack Web Development</p>
                     </div>
-                    <div className="more-cv">
+                    <div className="more-button">
                         <Button className="button-color">More about my CV</Button>
                     </div>
                 </div>
-                <div style={{fontSize: "0"}}>
+                {/* <div style={{fontSize: "0"}}>
                     <img src={line2} alt=""/>
                     <img src={line_down} alt=""/>
-                </div>
+                </div> */}
             </div>
 
         
