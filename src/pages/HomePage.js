@@ -1,13 +1,11 @@
 import React from 'react'
 import {Card, Button} from "react-bootstrap"
+import {Link} from "react-router-dom"
 // Material UI
 import Avatar from '@mui/material/Avatar';
 // import
 import "./HomePage.css"
 // images
-import test from "../images/test.jpg"
-import line2 from "../images/line2.svg"
-import line_down from "../images/line_down.svg"
 import avatar from "../images/svg/avatar.svg"
 import academy from "../images/academy.png"
 import ecommerce from "../images/ecommerce.png"
@@ -18,10 +16,6 @@ const HomePage = () => {
             <div 
             className="container"
             >
-                {/* <div style={{fontSize: "0"}}>
-                    <img src={line2} alt=""/>
-                    <img src={line_down} alt=""/>
-                </div> */}
                 {/* section about */}
                 <div className="row home-about background-black pt-5">
                     <div className="col-8">
@@ -34,7 +28,9 @@ const HomePage = () => {
                         <p>Feel free to contact me if you want to find out more info</p>
                         <p>See more about me</p>
                         <div className="more-about">
+                        <Link to="/about-me">
                         <Button className="button-color">More about me</Button>
+                        </Link>
                         </div>
                     </div>
                     <div className="col-4">
@@ -43,12 +39,8 @@ const HomePage = () => {
                     </div>
                     
                 </div>
-                {/* <div 
-                style={{fontSize: "0"}}
-                >
-                    <img src={line2} alt=""/>
-                    <img src={line_down} alt=""/>
-                </div> */}
+
+
                 {/* section projects */}
                 <hr/>
                 <div className="home-projects 
@@ -61,6 +53,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className="col-6">
+                            <h3>Academy</h3>
                             <Card className="home-card">
                                 <Card.Img className="home-card-image" variant="top" src={academy} />
                             </Card>
@@ -68,26 +61,25 @@ const HomePage = () => {
                     </div>
                     <div className="row">
                         <div className="col-6">
+                            <h3>E-commerce</h3>
                             <Card className="home-card">
                                 <Card.Img className="home-card-image" variant="top" src={ecommerce} />
                             </Card>
                         </div>
                         <div className="col-6">
+                            <h3>Real-time</h3>
                             <Card className="home-card">
                                 <Card.Img className="home-card-image" variant="top" src={realtime} />
                             </Card>
                         </div>
                     </div>
                     <div className="more-button">
-                        <Button className="button-color">More Projects</Button>
+                        <Link to="/projects">
+                            <Button className="button-color">More Projects</Button>
+                        </Link>
                     </div>
                     
                 </div>
-                {/* <div style={{fontSize: "0"}}>
-                    <img src={line2} alt=""/>
-                    <img src={line_down} alt=""/>
-                </div> */}
-                {/* section CV */}
                 <hr/>
 
                 <div className="row home-cv background-black mt-5 pb-5">
@@ -99,13 +91,11 @@ const HomePage = () => {
                         <p>Major: Full-stack Web Development</p>
                     </div>
                     <div className="more-button">
+                        <Link to="/my-cv">
                         <Button className="button-color">More about my CV</Button>
+                        </Link>
                     </div>
                 </div>
-                {/* <div style={{fontSize: "0"}}>
-                    <img src={line2} alt=""/>
-                    <img src={line_down} alt=""/>
-                </div> */}
             </div>
 
         

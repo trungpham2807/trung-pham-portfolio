@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="row footer-container background-charcoal">
                 <div className="col-6">
                     <h1>Get in touch!</h1>
-                    <p>Feel free to send me an email at trungpq287@gmail.com or find me on social media.</p>
+                    <p>Feel free to send me an email at trungpq287@gmail.com or find me on social media whether it be about my work, new opportunities or just natter.</p>
                     <hr/>
                     <p>
                         This website code by ReactJs. Copyright by Trung Pham, 2021
