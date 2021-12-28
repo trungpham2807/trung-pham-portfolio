@@ -7,7 +7,9 @@ import AboutMe from "./pages/AboutMe"
 import MyCV from "./pages/MyCV"
 import Projects from "./pages/Projects"
 import TrungAcademy from "./pages/projects/TrungAcademy"
-
+import TrungEcommerce from "./pages/projects/TrungEcommerce"
+import TrungRealtime from "./pages/projects/TrungRealTime"
+import TrungMovie from "./pages/projects/TrungMovie"
 import Slider from "./Components/Slider"
 import Footer from "./Components/Footer"
 
@@ -23,7 +25,11 @@ function App() {
         <Route path="/about-me" element={<AboutMe/>} />
         <Route path="/my-cv" element={<MyCV/>} />
         <Route path="/projects" element={<Projects/>} />
-        <Route path="/projects/trung-academy" element={<TrungAcademy/>} />
+        <Route path="/projects/academy" element={<TrungAcademy/>} />
+        <Route path="/projects/e-commerce" element={<TrungEcommerce/>} />
+        <Route path="/projects/real-time" element={<TrungRealtime/>} />
+        <Route path="/projects/movie" element={<TrungMovie/>} />
+
 
       </Routes>
       <Footer/>

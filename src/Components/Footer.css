@@ -5,6 +5,7 @@
 
 .footer-icon{
     display: flex;
+    margin-top: 10px;
 }
 .quick-links a{
     text-decoration: none;

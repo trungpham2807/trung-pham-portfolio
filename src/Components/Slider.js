@@ -16,7 +16,7 @@ const Slider = () => {
                     <ParallaxProvider>
                         <Parallax 
                         imgsrc={test2_compressed} 
-                        height="700px" 
+                        height="700px"
                         opacity="0.5"
                         >
                         </Parallax>

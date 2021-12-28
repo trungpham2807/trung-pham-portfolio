@@ -50,7 +50,7 @@ const AboutMe = () => {
                       <p>Then in my university and my past jobs spending time working with machines, but something went wrong, feel empty and wonder what to do for a long times</p>
                       <p>I watched Steve Jobs's speech and there was one sentence that i will always remember: "If today were my last day of my life, would i want to do what i am about to do today? If they answer was "No" too many days in a row, i know i need to change something. And i decided to quit my past job then register school for coding boot-camp without hesitating </p>
                       <p>Working with websites is so fascinating where i can spend day after day doing this without boring and make a bunch of new things, it's not just working with machines, it's about business and how interacts with users and interacts with beautiful things </p>
-                      <p>So i'm here today in my journey.</p>
+                      <p>So i'm here today in my journey as front-end web developer.</p>
                     </div>
                     <div class="stepper-wrapper">
                         <div class="stepper-item completed">
