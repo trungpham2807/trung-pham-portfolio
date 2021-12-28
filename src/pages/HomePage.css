@@ -1,0 +1,65 @@
+.background-black{
+    background-color: var(--c10);
+    /* background-image: url(../images/line.svg); */
+
+}
+.background-charcoal{
+    background-color: var(--c8);
+}
+
+.home-about{
+
+}
+.home-avatar{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit:cover;
+}
+/* text typing */
+.home-text-typing h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(255, 255, 255); /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+    animation: 
+      typing 3.0s steps(30, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(252, 253, 255); }
+  }
+  .home-card{
+      width: 400px;
+  }
+  .home-card-image{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+/* Projects */
+.button-color{
+    background-color: var(--bg-1);
+    border-color: var(--bg-1);
+    color: black !important;
+    font-weight: bold;
+}
+.button-color:hover{
+    background-color: #fecbb0;
+    border-color: #fecbb0;
+}
+.button-color:focus, .button-color:active{
+    background-color: var(--bg-1);
+    border-color: var(--bg-1);
+    box-shadow: 1px 1px 1px #fecbb0;
+}
