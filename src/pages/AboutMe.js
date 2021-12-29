@@ -26,7 +26,7 @@ const AboutMe = () => {
                         <p>Proficient in front-end programming tools, frameworks and libraries. 
                             Make code and user interface clean better, faster, secure, easily to scale and friendly for SEO.</p>
                         <h3>Long-term objectives</h3>
-                        <p>Learn more about back-end programming to become master in web development. Then with little experience with marketing as freelancer and past jobs to know more about user experience,
+                        <p>Learn more about back-end programming and website architect to become senior/master in web development. Then with little experience with marketing as freelancer and past jobs to know more about user experience,
                          can become product owner.</p>
                          <p>Here is more about my CV</p>
                     </div>
