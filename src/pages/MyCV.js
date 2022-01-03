@@ -24,7 +24,7 @@ const MyCV = () => {
                     <div className="col-8">
                         <h1>Experience</h1>
                         <h4>Vinacontrol Group</h4>
-                        <p>Time: 5/2020 - 8/2020</p>
+                        <p>Time: 5/2020 - 8/2021</p>
                         <p>Position: Inspector machines </p>
                         <p>Quality control of machinery and equipment both for technical and commercial</p>
                         <h4> Mechatronics Laboratory HUST</h4>
