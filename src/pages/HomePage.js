@@ -64,7 +64,7 @@ const HomePage = () => {
                     </div>
                     <div className="row">
                         <div className="col-6">
-                            <h3>E-commerce</h3>
+                            <h3>E-commerce ReactJS (MERN stack)</h3>
                             <Link to="/projects/e-commerce">
                                 <Card className="home-card">
                                     <Card.Img className="home-card-image" variant="top" src={ecommerce} />
@@ -73,10 +73,10 @@ const HomePage = () => {
 
                         </div>
                         <div className="col-6">
-                            <h3>Real-time</h3>
+                            <h3>Ecom Angular (MEAN stack) </h3>
                             <Link to="projects/real-time">
                                 <Card className="home-card">
-                                    <Card.Img className="home-card-image" variant="top" src={realtime} />
+                                    <Card.Img className="home-card-image" variant="top" src={angular} />
                                 </Card>
                             </Link>
 
