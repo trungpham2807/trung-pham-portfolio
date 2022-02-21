@@ -1,0 +1,27 @@
+.nav-bar{
+    text-decoration: none !important;
+    color: var(--c10) !important;
+}
+.nav-bar a{
+    text-decoration: none !important;
+    color: var(--c10) !important;
+    font-weight: bold;
+}
+
+.nav-brand{
+    color: var(--c10) !important;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav-bar-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-text{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.nav-text:hover{
+    text-decoration: underline !important;
+}

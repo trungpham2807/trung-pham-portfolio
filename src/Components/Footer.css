@@ -1,0 +1,16 @@
+.footer-container{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.footer-icon{
+    display: flex;
+    margin-top: 10px;
+}
+.quick-links a{
+    text-decoration: none;
+    color: var(--c99) !important;
+}
+.footer-icon-text{
+    margin-left: 10px;
+}
