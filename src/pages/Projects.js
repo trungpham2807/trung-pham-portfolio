@@ -16,7 +16,7 @@ const Projects = () => {
                     <p>Below are some case studies for my projects</p>
                     <div className="row ">
                         <div className="col-6">
-                            <h3>E-commerce</h3>
+                            <h3>E-commerce React</h3>
                             <Link to="/projects/e-commerce">
                                 <Card className="home-card">
                                     <Card.Img className="home-card-image" variant="top" src={ecommerce} />
@@ -37,13 +37,13 @@ const Projects = () => {
                     </div>
                     <div className="row">
                         <div className="col-6">
-                            <h3>Real-time</h3>
-                            <Link to="/projects/real-time">
+                            <h3>Ecom-Angular (MEAN)</h3>
+                            <Link to="/projects/ecom-angular">
                                 <Card className="home-card">
                                     <Card.Img className="home-card-image" variant="top" src={realtime} />
                                 </Card>
                             </Link>
-                            <p>A website for chat real-time</p>
+                            <p>A website for selling with Angular</p>
                         </div>
                         <div className="col-6">                       
                         </div>
