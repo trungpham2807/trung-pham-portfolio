@@ -41,6 +41,8 @@ const MyCV = () => {
                     <h1>Skills and Knowledge</h1>
                     <h5>ReactJs</h5>
                     <p>React State with useState, fetch API CRUD with useEffect and api services, React Hook</p>
+                    <h5>Angular2+</h5>
+                    <p>Component, Data Binding, Directive, Service, HttpClient, Router, Pipe, Form</p>
                     <h5>Redux</h5>
                     <p>State Management with Redux, Redux-thunk, Redux-dev-tools</p>
                     <h5>Html, Markdown</h5>
@@ -65,7 +67,6 @@ const MyCV = () => {
                     <p>basic SEO techniques (On-page, Off-page)</p>
                     <h5>Third Parties, libraries</h5>
                     <p>Amazon Cloud, Cloudinary to storage videos, images</p>
-                    <p>Socket.io for real-time</p>
                     <p>PassportJs, jsonwebtoken, crypto for authentication and authorization</p>
                     <h5>Content Management System (Admin)</h5>
                     <p>Already worked as freelancer with CMS and had user experience</p>
