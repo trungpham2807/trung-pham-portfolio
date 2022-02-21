@@ -74,9 +74,9 @@ const HomePage = () => {
                         </div>
                         <div className="col-6">
                             <h3>Ecom Angular (MEAN stack) </h3>
-                            <Link to="projects/real-time">
+                            <Link to="projects/ecom-angular">
                                 <Card className="home-card">
-                                    <Card.Img className="home-card-image" variant="top" src={angular} />
+                                    <Card.Img className="home-card-image" variant="top" src={realtime} />
                                 </Card>
                             </Link>
 
